@@ -21,16 +21,19 @@ h2{
     margin-right: 200px;
     font-family:Georgia, 'Times New Roman', Times, serif;
     max-width: 2000px;
+    width:100px;
 
 }
 .navbar a{
     position: fixed;
     width: 100%;
     color:#FFF;
-    max-width: 2000px;
+
     
 }
-
+#navigation{
+max-width: 1500px;
+}
 a:hover{
     color:#FF69B4;
 }
