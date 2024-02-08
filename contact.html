@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <title>Make an Appointment</title>
+        <link rel="stylesheet" href="style.css">
+        <style div="css/text">
+
+        
+        h3{
+            text-align: center;
+            color:#FF69B4;
+
+        }
+        select{
+            margin-top: 20px;
+            margin-left: 5px;
+            margin-bottom: 20px;
+        }
+        #boxes{
+            color:white;
+        }
+        #hourslink{
+            color:#FF69B4;
+        }
+        #hourslink:hover{
+            color: #000000;
+        }
+       
+
+        .box{
+            margin-top: 300px; 
+            background-color:#FFF;
+            padding: 50px;
+            border: 3px solid #FF69B4;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+        .box:hover{
+            background-color:#CDCDCD;
+        }
+        .placeholder{
+            margin-top: 20px;
+        }
+        #datepicker{
+
+            margin-top: 20px;
+        }
+        label{
+            color: #FF69B4;
+        }
+        
+        </style>
+    </head>
+    <body>
+        
+        <h2>Davis Square Nails & Spa</h2>
+
+        <ul class="navbar" id="navigation">
+            <li id="navlinks"><a href="index.html">Home</a></li>
+            <li id="navlinks"><a href="contact.html">Make an Appointment</a></li>
+            <li id="navlinks"><a href="services.html">Services</a></li>
+            <li id="navlinks"><a href="hours.html">Hours</a></li>
+            
+        </ul>
+                <div id="boxes" class="box">
+                <h3>Make an appointment below! Please refer to our hours
+                    under our <a href="hours.html" id="hourslink">hours</a> tab 
+                    for your preferred appointment time.
+                </h3>
+                <!-- This is the beginning of an appointment form -->
+                <form method='get' action="#">
+                    <label>Name:</label>
+                    <input type="text" placeholder="Enter here"
+                    name = 'name' />
+                 <br/>
+                 <label>Type of Service</label>
+                 <select size="1" name="Service">
+                    <option>Regular Manicure</option>
+                    <option>Pedicure</option>
+                    <option>Gel Manicure</option>
+                    <option>Acrylic Full Set</option>
+                    <option>Acrylic Removal and Set</option>
+                    <option>Eyebrow Threading</option>
+                </select>
+                <br/>
+                    <label>Phone Number:</label>
+                    <input type="text" placeholder="Enter here"
+                    phoneNumber = 'phone' />
+                 <br/>
+                <input type="datetime-local" id="datepicker">
+                <br/>
+                <br/>
+                <input type='submit' value="Go now!"/>
+                <br/>
+                
+            </div>
+
+                
+    </body>
+</html>

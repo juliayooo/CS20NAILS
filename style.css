@@ -1,0 +1,34 @@
+body{
+    background-image: url('https://thenailpro.ca/mt-content/uploads/2018/04/manicure-with-burgundy-gel-nail-polish.jpg');
+    background-size: 100%;
+
+
+}
+h2{
+    position: fixed;
+    text-align: center;
+    font-size: 100px;
+    color: #FF69B4;
+    top: 0;
+    left: 100px;
+    max-width: 2000px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+#navlinks{
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 200px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+.navbar a{
+    position: fixed;
+    width: 100%;
+    color:#FFF;
+    
+}
+
+a:hover{
+    color:#FF69B4;
+}
